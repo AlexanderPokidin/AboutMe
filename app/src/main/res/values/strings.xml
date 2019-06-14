@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="alexander">Alexander</string>
+
+    <string name="bio">Hi!
+        \n\nMy name is Alexander.
+        \n\nI respect the deadlines and attentive to the details of technical tasks.
+        \nI always consider user experience and look for optimal solutions to problems.
+        \n\n2016 – Present
+        \n\nI have been studying Java development since August 2016 on offline courses in Kiev and online on JavaRush,
+        \nGeekBrains, Udacity, etc., on articles and books, making learning projects.
+        \nSince 2017, I have been studying Java development for Android (with XML, SQLite, JSON).
+        \nI developed and made some android applications.
+        \n\n2003 – 2018
+        \n\nI have over 10 years of positive experience in the media and public communications.
+        \nAt various times I held the position of PR-manager, editor, journalist.
+        \nMy responsibilities included data analysis, creating and working with different texts,
+        \nproject management, etc.\n</string>
+    <string name="nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
+</resources>
