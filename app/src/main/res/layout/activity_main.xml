@@ -2,6 +2,13 @@
 
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+                name="myName"
+                type="com.pokidin.a.aboutme.MyName"/>
+    </data>
+
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -14,7 +21,7 @@
                 style="@style/MyStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/alexander"
+                android:text="@={myName.name}"
                 android:textAlignment="center"
                 android:textSize="@dimen/text_size"/>
 
@@ -24,6 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:text="@={myName.nickname}"
                 android:hint="@string/nickname"
                 android:inputType="textPersonName"
                 android:textAlignment="center"/>
@@ -38,6 +46,7 @@
         <TextView
                 android:id="@+id/nickname_text"
                 style="@style/MyStyle"
+                android:text="@={myName.nickname}"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
